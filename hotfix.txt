@@ -1,0 +1,3 @@
+# Bug fix: Prevent overwriting board cells
+def is_valid_move(board, move):
+    return board[move] == ' '
